@@ -23,3 +23,11 @@ function testign () {
 function test () {
   console.log("prueba2");
 }
+
+const login = (email, password) => {
+  if (email && password) {
+    console.log('Aqui deberia de ejecutar la funcion que da la bienvenida');
+    return;
+  }
+  console.log('Aqui deberia de ejecutar la funcion de error de credenciales');
+}
