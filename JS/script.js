@@ -7,3 +7,7 @@ function saludar (nombre) {
 const saludar2 = (nombre) => {
   console.log("hola" + nombre);
 }
+
+function welcomeToTheApp () {
+  console.log("bienvenido a el sistema");
+}
