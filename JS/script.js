@@ -11,3 +11,7 @@ const saludar2 = (nombre) => {
 function welcomeToTheApp () {
   console.log("bienvenido a el sistema");
 }
+
+function text () {
+  console.log("prueba");
+}
