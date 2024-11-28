@@ -15,3 +15,7 @@ function welcomeToTheApp () {
 function text () {
   console.log("prueba");
 }
+
+function testign () {
+  console.log("prueba3");
+}
