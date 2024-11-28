@@ -1,6 +1,6 @@
 const nombre = "Diego";
 
-function saludar (nombre) {
+function saludar(nombre) {
   console.log("hola" + nombre);
 }
 
@@ -8,20 +8,24 @@ const saludar2 = (nombre) => {
   console.log("hola" + nombre);
 }
 
-function welcomeToTheApp () {
+function welcomeToTheApp() {
   console.log("bienvenido a el sistema");
 }
 
-function text () {
+function text() {
   console.log("prueba");
 }
 
-function testign () {
+function testign() {
   console.log("prueba3");
 }
 
-function test () {
+function test() {
   console.log("prueba2");
+}
+
+function correctPull() {
+  console.log('Este es un pull correcto');
 }
 
 const login = (email, password) => {
