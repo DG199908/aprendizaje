@@ -19,3 +19,7 @@ function text () {
 function testign () {
   console.log("prueba3");
 }
+
+function test () {
+  console.log("prueba2");
+}
