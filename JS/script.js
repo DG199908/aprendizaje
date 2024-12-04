@@ -35,3 +35,11 @@ const login = (email, password) => {
   }
   console.log('Aqui deberia de ejecutar la funcion de error de credenciales');
 }
+
+const registro = (name,email,password) => {
+  if (name && email && password) {
+    console.log('se creo el usuario con exito');
+  } else {
+    console.log('Faltan campos por rellenar');
+  }
+}
